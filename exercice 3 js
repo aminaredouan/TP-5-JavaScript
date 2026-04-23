@@ -1,0 +1,23 @@
+ const QUESTIONS = [
+    ["Capitale de la France ?", "paris"],
+    ["2 + 2 ?", "4"],
+    ["Langage du web ?", "javascript"]
+];
+
+let score = 0;
+
+for (let i = 0; i < QUESTIONS.length; i++) {
+    let question = QUESTIONS[i][0];
+    let bonneReponse = QUESTIONS[i][1];
+
+    let reponse = prompt(question);
+
+    if (reponse !== null && reponse.toLowerCase() === bonneReponse) {
+        console.log("Réponse juste");
+        score++;
+    } else {
+        console.log("Réponse fausse");
+    }
+}
+
+console.log("Vous avez répondu correctement à " + score + " questions sur " + QUESTIONS.length);
