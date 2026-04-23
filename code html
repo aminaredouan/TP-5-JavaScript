@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tp05 Exercice 1</title>
+</head>
+<body>
+
+    <h2>Quiz interactif</h2>
+
+    <!-- bouton pour démarrer le quiz -->
+    <button onclick="lancerQuiz()">Démarrer le quiz</button>
+
+    <script src="tp05.js"></script>
+
+</body>
+</html>
